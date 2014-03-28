@@ -1,0 +1,37 @@
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/backbone/backbone.js"></script>
+<script src="parse.js"></script>
+<script src="bower_components/marionette/lib/backbone.marionette.js"></script>
+<script src="models/comment.js"></script>
+<script src="models/note_image.js"></script>
+<script src="enter_url.js"></script>
+<script src="note_image_layout.js"></script>
+<script src="note_image.js"></script>
+<script src="note_comment.js"></script>
+<script src="note_comments_view.js"></script>
+<script src="router.js"></script>
+<script src="app.js"></script>
+<script>
+Parse.initialize("VpU8x19hEbnp0GZ9JAQjZOyfpDXri9GPgDpVtNWh", "wYN3YaZt5RdaJUNeDBlSa5jcZ3yMoDVvL8oVZ5m0");
+ $(start); </script>
+
+<body>
+  <style>
+    .note-comment {
+      position: absolute;
+    }
+
+    .note-image {
+      position: relative;
+    }
+
+    .remove {
+      color: red;
+      cursor: pointer;
+      font-size: 9px;
+      font-weight: bold;
+    }
+  </style>
+  <div class="app"></div>
+</body>
